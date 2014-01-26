@@ -1,4 +1,4 @@
-reactjs-bootstrap
+React :heart: bootstrap
 =================
 
 Simple ReactJS components for Bootstrap 3
