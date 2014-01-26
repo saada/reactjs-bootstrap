@@ -45,3 +45,12 @@ The goal of this repo is to make writing Bootstrap markup fun and intuitive with
 		<MenuItem className="dropdown-header">My Other Header</MenuItem>
 		<MenuItem>Hey! Click me!</MenuItem>
 	</Dropdown>
+
+
+#Helpers
+
+Equivalens of a `<div class="row"></div>`
+
+	<Row>
+		...
+	</Row>

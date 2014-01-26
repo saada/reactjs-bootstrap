@@ -7,7 +7,8 @@ var Demo = React.createClass({displayName: 'Demo',
 		React.DOM.div(null, 	
 			Jumbotron(null, 
 				React.DOM.div( {className:"container"}, 
-					React.DOM.h1(null, "Source : ", React.DOM.a( {href:"https://github.com/saada/reactjs-bootstrap/blob/master/jsx/demo.jsx"}, "jsx/demo.jsx"))
+					React.DOM.p(null, React.DOM.a( {href:"https://github.com/saada/reactjs-bootstrap"}, "Github Repo")),
+					React.DOM.p(null, "Source : ", React.DOM.a( {href:"https://github.com/saada/reactjs-bootstrap/blob/master/jsx/demo.jsx"}, "jsx/demo.jsx"))
 				)
 			),
 			React.DOM.div( {className:"container"}, 
