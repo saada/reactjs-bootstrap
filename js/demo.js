@@ -6,6 +6,7 @@ var Demo = React.createClass({displayName: 'Demo',
 		return (
 			React.DOM.div( {className:"Demo"}, 
 				React.DOM.h3(null, "Everything you need to know is in the jsx/demo.jsx"),
+				
 				/* Glyph */
 				Glyph( {icon:"user"}),
 				Glyph( {icon:"search"}),
