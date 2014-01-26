@@ -7,6 +7,7 @@ var Demo = React.createClass({
 		<div>	
 			<Jumbotron>
 				<div className="container">
+					<h1>React <Glyph style={{color:'brown'}} icon='heart-empty'/> Bootstrap</h1>
 					<p><a href="https://github.com/saada/reactjs-bootstrap">Github Repo</a></p>
 					<p>Source : <a href="https://github.com/saada/reactjs-bootstrap/blob/master/jsx/demo.jsx">jsx/demo.jsx</a></p>
 				</div>
@@ -14,8 +15,8 @@ var Demo = React.createClass({
 			<div className="container">
 				{/* Jumbotron */}
 				<Jumbotron>
-					<h1>React + Bootstrap</h1>
-					<p>This is a Jumbotron<Glyph icon='heart-empty'/></p>
+					<h2>My Jumbotron</h2>
+					<p>"This is an inspirational quote" ~Dr. Adolf Jumbotron</p>
 				</Jumbotron>
 
 				{/* Button */}

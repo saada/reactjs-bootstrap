@@ -6,7 +6,7 @@ var Glyph = React.createClass({
 	render: function() {
 		var classes = 'glyphicon glyphicon-'+this.props.icon;
 		return (
-			<span className={classes}>{this.props.children}</span>
+			<span style={this.props.style} className={classes}>{this.props.children}</span>
 		);
 	}
 });

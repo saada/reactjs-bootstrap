@@ -7,6 +7,7 @@ var Demo = React.createClass({displayName: 'Demo',
 		React.DOM.div(null, 	
 			Jumbotron(null, 
 				React.DOM.div( {className:"container"}, 
+					React.DOM.h1(null, "React ", Glyph( {style:{color:'brown'}, icon:"heart-empty"}), " Bootstrap"),
 					React.DOM.p(null, React.DOM.a( {href:"https://github.com/saada/reactjs-bootstrap"}, "Github Repo")),
 					React.DOM.p(null, "Source : ", React.DOM.a( {href:"https://github.com/saada/reactjs-bootstrap/blob/master/jsx/demo.jsx"}, "jsx/demo.jsx"))
 				)
@@ -14,8 +15,8 @@ var Demo = React.createClass({displayName: 'Demo',
 			React.DOM.div( {className:"container"}, 
 				/* Jumbotron */
 				Jumbotron(null, 
-					React.DOM.h1(null, "React + Bootstrap"),
-					React.DOM.p(null, "This is a Jumbotron",Glyph( {icon:"heart-empty"}))
+					React.DOM.h2(null, "My Jumbotron"),
+					React.DOM.p(null, "\"This is an inspirational quote\" ~Dr. Adolf Jumbotron")
 				),
 
 				/* Button */
