@@ -23,10 +23,10 @@ var Dropdown = React.createClass({
   render: function() {
     return (
       <div className="dropdown">
-        <button className="btn btn-success dropdown-toggle" type="button" id={this.props.label.replace(/\s+/g, '')} data-toggle="dropdown">
+        <Button className={'dropdown-toggle ' + this.props.className} id={this.props.label.replace(/\s+/g, '')} data-toggle="dropdown">
           {this.props.label}
           <span className="caret"></span>
-        </button>
+        </Button>
         <ul className="dropdown-menu" role="menu" aria-labelledby={this.props.label.replace(/\s+/g, '')}>
           {this.props.children}
         </ul>

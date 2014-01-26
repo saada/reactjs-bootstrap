@@ -26,7 +26,7 @@ module.exports = function(grunt){
         files: 'jsx/*.jsx',
         tasks: ['react', 'uglify'],
         options: {
-          livereload: true,
+          livereload: false,
         },
       },
     },

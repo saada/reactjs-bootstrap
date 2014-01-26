@@ -23,7 +23,7 @@ var Dropdown = React.createClass({displayName: 'Dropdown',
   render: function() {
     return (
       React.DOM.div( {className:"dropdown"}, 
-        React.DOM.button( {className:"btn btn-success dropdown-toggle", type:"button", id:this.props.label.replace(/\s+/g, ''), 'data-toggle':"dropdown"}, 
+        Button( {className:'dropdown-toggle ' + this.props.className, id:this.props.label.replace(/\s+/g, ''), 'data-toggle':"dropdown"}, 
           this.props.label,
           React.DOM.span( {className:"caret"})
         ),
