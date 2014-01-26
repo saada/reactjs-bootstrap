@@ -7,6 +7,17 @@ Simple ReactJS components for Bootstrap 3
 
 The goal of this repo is to make writing Bootstrap markup fun and intuitive with readable syntax. If there's a feature you want, you're more than welcome to contribute pull-requests. Please submit any issues you face!
 
+# Installation
+
+Just include the script in your html and you're good to go!
+
+	<script src="bower_components/jquery/jquery.min.js"></script>
+	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="bower_components/react/react.min.js"></script>
+	
+	<!-- Add this script to the stack -->
+	<script src="dist/reactjs-bootstrap.min.js"></script>
+
 # Implemented components (JSX Examples)
 
 ##Jumbotron
