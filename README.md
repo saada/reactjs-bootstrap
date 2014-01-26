@@ -3,6 +3,8 @@ React :heart: Bootstrap
 
 Simple ReactJS components for Bootstrap 3
 
+[Github Page](http://saada.github.io/reactjs-bootstrap/ "ReactJS-Bootstrap")
+
 ###Everything you need to know is in the jsx/demo.jsx
 
 The goal of this repo is to make writing Bootstrap markup fun and intuitive with readable syntax. If there's a feature you want, you're more than welcome to contribute pull-requests. Please submit any issues you face!
