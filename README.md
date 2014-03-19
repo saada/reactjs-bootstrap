@@ -82,7 +82,7 @@ Just include the script in your html and you're good to go!
 
 #Helpers
 
-Equivalens of a `<div class="row"></div>`
+Equivalent to `<div class="row"></div>`
 
 	<Row>
 		...
