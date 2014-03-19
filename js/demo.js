@@ -30,7 +30,7 @@ var Demo = React.createClass({displayName: 'Demo',
 				/* Button Group*/
 				React.DOM.br(null),
 				Row(null, 
-					React.DOM.h1(null, "Button Groups"),
+					React.DOM.h1( {className:"page-header"}, "Button Groups"),
 					ButtonGroup(null, 
 						Button( {className:"btn-default"}, "Default"),
 						Button( {className:"btn-danger"}, "Danger"),
@@ -38,10 +38,45 @@ var Demo = React.createClass({displayName: 'Demo',
 					)
 				),
 
+				/* ButtonToolbar */
+				React.DOM.br(null),
+				Row(null, 
+					React.DOM.h1(null, "Button Toolbar"),
+					ButtonToolbar(null, 
+						ButtonGroup(null, 
+							Button( {className:"btn-default"}, Glyph( {icon:"list"})),
+							Button( {className:"btn-danger"}, Glyph( {icon:"star"})),
+							Button( {className:"btn-success"}, Glyph( {icon:"search"}))
+						),
+						ButtonGroup(null, 
+							Button( {className:"btn-default"}, Glyph( {icon:"globe"})),
+							Button( {className:"btn-danger"}, Glyph( {icon:"heart"})),
+							Button( {className:"btn-success"}, Glyph( {icon:"music"}))
+						),
+						ButtonGroup(null, 
+							Button( {className:"btn-default"}, Glyph( {icon:"globe"})),
+							Button( {className:"btn-danger"}, Glyph( {icon:"heart"})),
+							Button( {className:"btn-success"}, Glyph( {icon:"music"}))
+						)
+					)
+				),
+
+				/* Button Dropdowns */
+				Row(null, 
+					React.DOM.h1( {className:"page-header"}, "Button Dropdowns"),
+					ButtonGroup(null, 
+						Dropdown( {label:"Action"}, 
+							React.DOM.li(null, React.DOM.a( {href:"#"}, "Action")),
+						    React.DOM.li(null, React.DOM.a( {href:"#"}, "Another action")),
+						    React.DOM.li(null, React.DOM.a( {href:"#"}, "Something else here"))
+						)
+					)
+				),
+
 				/* Glyph */
 				React.DOM.br(null),
 				Row(null, 
-					React.DOM.h1(null, "Glyphicons"),
+					React.DOM.h1( {className:"page-header"}, "Glyphicons"),
 					Glyph( {icon:"user"}),
 					Glyph( {icon:"search"}),
 					Glyph( {icon:"list"}),
@@ -57,7 +92,7 @@ var Demo = React.createClass({displayName: 'Demo',
 				/* Dropdown */
 				React.DOM.br(null),
 				Row(null, 
-					React.DOM.h1(null, "Dropdowns"),
+					React.DOM.h1( {className:"page-header"}, "Dropdowns"),
 					Dropdown( {label:"My Dropdown"}, 
 						MenuItem( {className:"dropdown-header"}, "My Header"),
 						MenuItem( {className:"disabled"}, "I am disabled"),
@@ -68,10 +103,18 @@ var Demo = React.createClass({displayName: 'Demo',
 					Dropdown( {className:"btn-success", label:"Success"}, 
 						MenuItem(null, "Hey! Click me!"),
 						MenuItem(null, "And me!!!")
+					),
+					Dropdown( {className:"btn-danger", label:"Danger"}, 
+						MenuItem(null, "Hey! Click me!"),
+						MenuItem(null, "And me!!!")
 					)
 				)
 
-			)
+				
+
+			),
+
+			React.DOM.br(null),React.DOM.br(null),React.DOM.br(null),React.DOM.br(null),React.DOM.br(null),React.DOM.br(null),React.DOM.br(null),React.DOM.br(null)
 		)
 		);
 	}

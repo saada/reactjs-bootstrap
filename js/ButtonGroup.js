@@ -5,7 +5,7 @@
 var ButtonGroup = React.createClass({displayName: 'ButtonGroup',
 	render: function() {
 		return (
-			React.DOM.div( {className:"btn-group"}, this.props.children)
+			React.DOM.div( {className:'btn-group ' + this.props.className }, this.props.children)
 		);
 	}
 });
