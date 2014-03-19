@@ -69,7 +69,7 @@ Just include the script in your html and you're good to go!
 	<Glyph icon="search"/>
 	<Glyph icon="list"/>
 
-##Dropdown
+##Dropdowns
 
 	<Dropdown label="My Dropdown">
 		<MenuItem className="dropdown-header">My Header</MenuItem>
@@ -79,6 +79,17 @@ Just include the script in your html and you're good to go!
 		<MenuItem>Hey! Click me!</MenuItem>
 	</Dropdown>
 
+##Input Groups
+
+	<InputGroup>
+		<InputGroupButton>
+			<Button className="btn-info">Search!</Button>
+		</InputGroupButton>
+		<input type="text" className="form-control"/>
+		<InputGroupAddon>
+			<input type="radio"/>
+		</InputGroupAddon>
+	</InputGroup>
 
 #Helpers
 

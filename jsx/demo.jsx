@@ -137,6 +137,9 @@ var Demo = React.createClass({
 						<Button className="btn-info">Search!</Button>
 					</InputGroupButton>
 					<input type="text" className="form-control"/>
+					<InputGroupAddon>
+						<input type="radio"/>
+					</InputGroupAddon>
 				</InputGroup>
 
 			</div>
