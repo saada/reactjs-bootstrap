@@ -1,7 +1,9 @@
-reactjs-bootstrap
+React :heart: Bootstrap
 =================
 
 Simple ReactJS components for Bootstrap 3
+
+[Github Page](http://saada.github.io/reactjs-bootstrap/ "ReactJS-Bootstrap")
 
 ###Everything you need to know is in the jsx/demo.jsx
 

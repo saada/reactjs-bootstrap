@@ -21,6 +21,8 @@ var MenuItem = React.createClass({
 
 var Dropdown = React.createClass({
   render: function() {
+    if(typeof this.props.label != 'string')
+      this.props.label = '';
     return (
       <div className="dropdown">
         <Button className={'dropdown-toggle ' + this.props.className} id={this.props.label.replace(/\s+/g, '')} data-toggle="dropdown">
