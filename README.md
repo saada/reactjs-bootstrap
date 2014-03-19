@@ -43,6 +43,26 @@ Just include the script in your html and you're good to go!
 		<Button className="btn-success">Success</Button>
 	</ButtonGroup>
 
+##Button Toolbar
+
+	<ButtonToolbar>
+		<ButtonGroup>
+			<Button className="btn-default"><Glyph icon="list"/></Button>
+			<Button className="btn-danger"><Glyph icon="star"/></Button>
+			<Button className="btn-success"><Glyph icon="search"/></Button>
+		</ButtonGroup>
+		<ButtonGroup>
+			<Button className="btn-default"><Glyph icon="globe"/></Button>
+			<Button className="btn-danger"><Glyph icon="heart"/></Button>
+			<Button className="btn-success"><Glyph icon="music"/></Button>
+		</ButtonGroup>
+		<ButtonGroup>
+			<Button className="btn-default"><Glyph icon="globe"/></Button>
+			<Button className="btn-danger"><Glyph icon="heart"/></Button>
+			<Button className="btn-success"><Glyph icon="music"/></Button>
+		</ButtonGroup>
+	</ButtonToolbar>
+
 ##Glyphicons
 
 	<Glyph icon="user"/>
