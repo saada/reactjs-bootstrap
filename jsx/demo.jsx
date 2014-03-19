@@ -20,101 +20,127 @@ var Demo = React.createClass({
 				</Jumbotron>
 
 				{/* Button */}
-				<Row>
-					<h1>Buttons</h1>
-					<Button>Click Me!</Button>
-					<Button className="btn-danger">Danger</Button>
-					<Button className="btn-success">Success</Button>
-				</Row>
+				<h1 className="page-header">Buttons</h1>
+				<Button>Click Me!</Button>
+				<Button className="btn-danger">Danger</Button>
+				<Button className="btn-success">Success</Button>
 
 				{/* Button Group*/}
-				<br/>
-				<Row>
-					<h1 className="page-header">Button Groups</h1>
-					<ButtonGroup>
-						<Button className="btn-default">Default</Button>
-						<Button className="btn-danger">Danger</Button>
-						<Button className="btn-success">Success</Button>
-					</ButtonGroup>
-				</Row>
+				<h1 className="page-header">Button Groups</h1>
+				<ButtonGroup>
+					<Button className="btn-default">Default</Button>
+					<Button className="btn-danger">Danger</Button>
+					<Button className="btn-success">Success</Button>
+				</ButtonGroup>
 
 				{/* ButtonToolbar */}
+				<h1 className="page-header">Button Toolbar</h1>
+				<ButtonToolbar>
+					<ButtonGroup>
+						<Button className="btn-default"><Glyph icon="list"/></Button>
+						<Button className="btn-danger"><Glyph icon="star"/></Button>
+						<Button className="btn-success"><Glyph icon="search"/></Button>
+					</ButtonGroup>
+					<ButtonGroup>
+						<Button className="btn-default"><Glyph icon="globe"/></Button>
+						<Button className="btn-danger"><Glyph icon="heart"/></Button>
+						<Button className="btn-success"><Glyph icon="music"/></Button>
+					</ButtonGroup>
+					<ButtonGroup>
+						<Button className="btn-default"><Glyph icon="globe"/></Button>
+						<Button className="btn-danger"><Glyph icon="heart"/></Button>
+						<Button className="btn-success"><Glyph icon="music"/></Button>
+					</ButtonGroup>
+				</ButtonToolbar>
 				<br/>
-				<Row>
-					<h1>Button Toolbar</h1>
-					<ButtonToolbar>
-						<ButtonGroup>
-							<Button className="btn-default"><Glyph icon="list"/></Button>
-							<Button className="btn-danger"><Glyph icon="star"/></Button>
-							<Button className="btn-success"><Glyph icon="search"/></Button>
-						</ButtonGroup>
-						<ButtonGroup>
-							<Button className="btn-default"><Glyph icon="globe"/></Button>
-							<Button className="btn-danger"><Glyph icon="heart"/></Button>
-							<Button className="btn-success"><Glyph icon="music"/></Button>
-						</ButtonGroup>
-						<ButtonGroup>
-							<Button className="btn-default"><Glyph icon="globe"/></Button>
-							<Button className="btn-danger"><Glyph icon="heart"/></Button>
-							<Button className="btn-success"><Glyph icon="music"/></Button>
-						</ButtonGroup>
-					</ButtonToolbar>
-				</Row>
+				<ButtonToolbar>
+					<ButtonGroup className="btn-group-lg">
+						<Button className="btn-info"><Glyph icon="list"/></Button>
+						<Button className="btn-danger"><Glyph icon="star"/></Button>
+						<Button className="btn-success"><Glyph icon="search"/></Button>
+					</ButtonGroup>
+					<ButtonGroup className="btn-group-lg">
+						<Button className="btn-info"><Glyph icon="globe"/></Button>
+						<Button className="btn-danger"><Glyph icon="heart"/></Button>
+						<Button className="btn-success"><Glyph icon="music"/></Button>
+						<Button className="btn-warning"><Glyph icon="cloud"/></Button>
+					</ButtonGroup>
+				</ButtonToolbar>
 
 				{/* Button Dropdowns */}
-				<Row>
-					<h1 className="page-header">Button Dropdowns</h1>
-					<ButtonGroup>
-						<Dropdown label='Action'>
-							<li><a href="#">Action</a></li>
-						    <li><a href="#">Another action</a></li>
-						    <li><a href="#">Something else here</a></li>
-						</Dropdown>
-					</ButtonGroup>
-				</Row>
+				<h1 className="page-header">Button Dropdowns</h1>
+				<ButtonGroup>
+					<Dropdown label='Action'>
+						<li><a href="#">Action</a></li>
+					    <li><a href="#">Another action</a></li>
+					    <li><a href="#">Something else here</a></li>
+					</Dropdown>
+				</ButtonGroup>
 
 				{/* Glyph */}
-				<br/>
-				<Row>
-					<h1 className="page-header">Glyphicons</h1>
-					<Glyph icon="user"/>
-					<Glyph icon="search"/>
-					<Glyph icon="list"/>
-					<Glyph icon="earphone"/>
-					<Glyph icon="file"/>
-					<Glyph icon="film"/>
-					<Glyph icon="gift"/>
-					<Glyph icon="cutlery"/>
-					<Glyph icon="dashboard"/>
-					<Glyph icon="download"/>
-				</Row>
+				<h1 className="page-header">Glyphicons</h1>
+				<Glyph icon="user"/>
+				<Glyph icon="search"/>
+				<Glyph icon="list"/>
+				<Glyph icon="earphone"/>
+				<Glyph icon="file"/>
+				<Glyph icon="film"/>
+				<Glyph icon="gift"/>
+				<Glyph icon="cutlery"/>
+				<Glyph icon="dashboard"/>
+				<Glyph icon="download"/>
 
 				{/* Dropdown */}
+				<h1 className="page-header">Dropdowns</h1>
+				<Dropdown label="My Dropdown">
+					<MenuItem className="dropdown-header">My Header</MenuItem>
+					<MenuItem className="disabled">I am disabled</MenuItem>
+					<MenuItem className="divider" />
+					<MenuItem className="dropdown-header">My Other Header</MenuItem>
+					<MenuItem>Hey! Click me!</MenuItem>
+				</Dropdown>
 				<br/>
-				<Row>
-					<h1 className="page-header">Dropdowns</h1>
-					<Dropdown label="My Dropdown">
-						<MenuItem className="dropdown-header">My Header</MenuItem>
-						<MenuItem className="disabled">I am disabled</MenuItem>
-						<MenuItem className="divider" />
-						<MenuItem className="dropdown-header">My Other Header</MenuItem>
-						<MenuItem>Hey! Click me!</MenuItem>
-					</Dropdown>
-					<Dropdown className="btn-success" label="Success">
-						<MenuItem>Hey! Click me!</MenuItem>
-						<MenuItem>And me!!!</MenuItem>
-					</Dropdown>
-					<Dropdown className="btn-danger" label="Danger">
-						<MenuItem>Hey! Click me!</MenuItem>
-						<MenuItem>And me!!!</MenuItem>
-					</Dropdown>
-				</Row>
+				<Dropdown className="btn-success" label="Success">
+					<MenuItem>Hey! Click me!</MenuItem>
+					<MenuItem>And me!!!</MenuItem>
+				</Dropdown>
+				<br/>
+				<Dropdown className="btn-danger" label="Danger">
+					<MenuItem>Hey! Click me!</MenuItem>
+					<MenuItem>And me!!!</MenuItem>
+				</Dropdown>
 
-				
+				{/* InputGroup */}
+				<h1 className="page-header">Input Groups</h1>
+				<InputGroup>
+					<InputGroupAddon>@</InputGroupAddon>
+					<input type="text" className="form-control"/>
+					<InputGroupAddon>#</InputGroupAddon>
+				</InputGroup>
+				<br/>
+				<InputGroup>
+					<InputGroupAddon>
+						<input type="checkbox"/>
+					</InputGroupAddon>
+					<input type="text" className="form-control"/>
+				</InputGroup>
+				<br/>
+				<InputGroup>
+					<InputGroupAddon>
+						<input type="radio"/>
+					</InputGroupAddon>
+					<input type="text" className="form-control"/>
+				</InputGroup>
+				<br/>
+				<InputGroup>
+					<InputGroupButton>
+						<Button className="btn-info">Search!</Button>
+					</InputGroupButton>
+					<input type="text" className="form-control"/>
+				</InputGroup>
 
 			</div>
-
-			<br/><br/><br/><br/><br/><br/><br/><br/>
+			<br/>
 		</div>
 		);
 	}

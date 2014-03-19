@@ -9,3 +9,11 @@ var ButtonGroup = React.createClass({
 		);
 	}
 });
+
+var ButtonToolbar = React.createClass({
+	render: function() {
+		return (
+			<div className={'btn-toolbar ' + this.props.className} role="toolbar">{this.props.children}</div>
+		);
+	}
+});
