@@ -136,7 +136,10 @@ var Demo = React.createClass({displayName: 'Demo',
 					InputGroupButton(null, 
 						Button( {className:"btn-info"}, "Search!")
 					),
-					React.DOM.input( {type:"text", className:"form-control"})
+					React.DOM.input( {type:"text", className:"form-control"}),
+					InputGroupAddon(null, 
+						React.DOM.input( {type:"radio"})
+					)
 				)
 
 			),
