@@ -1,3 +1,5 @@
+# THIS PROJECT IS DEAD, PLEASE USE https://github.com/stevoland/react-bootstrap instead
+
 React :heart: Bootstrap
 =================
 
